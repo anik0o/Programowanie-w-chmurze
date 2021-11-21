@@ -1,5 +1,6 @@
 #Podanie obrazu bazowego
 FROM node:16
+LABEL author="Weronika Mroz"
 # Stworzenie katalogu zrodlowego
 WORKDIR /usr/src/app
 # Zainstalowanie zaleznosci aplikacji opisanych w pliku package.json i package-lock.json
